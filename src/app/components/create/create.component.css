@@ -1,0 +1,40 @@
+form{
+  border-radius: 4px 3px 6px / 2px 4px; 
+  padding-top: 15px; 
+  padding-left: 0%; 
+  padding-right: 0%; 
+  padding-bottom: 15px;
+
+  width: 60%;
+  margin: 2rem auto 0 auto;
+  background-color:white;
+  text-align: center;
+}
+h1{
+    color: rgb(48, 48, 48)
+}
+
+.form{
+    width: 100%;
+}
+.buttons{
+    width: 100%;
+    text-align: start;
+}
+
+.forms{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+button{
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+
+

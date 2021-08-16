@@ -1,0 +1,56 @@
+.container {
+  width: 85%;
+  margin: auto;
+  height: 100%;
+  position: relative;
+}
+.content {
+  width: 100%;
+}
+
+.button-new-dragon {
+  display: block;
+  margin:auto;
+  width: 50%;
+  margin-top: 3rem;
+  background: white;  
+  color: black;     
+  border-radius: 15px;
+  transition: 0.3s ease-in-out;
+  
+}
+
+.mat-card{
+  padding-bottom: 18px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-card-dragon{
+  border: 1px solid #CFD8DC; 
+  border-radius: 4px 3px 6px / 2px 4px; 
+  padding-top: 15px; 
+  padding-left: 0%; 
+  padding-right: 0%; 
+  padding-bottom: 0%;
+  width: 100px;
+  margin: 5px;
+}
+.mat-card-actions button {
+  margin-right: 1rem;
+  transform: scale(0.8);
+}
+
+
+@media only screen and (min-width: 37.50em) {
+  .card {
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .card {
+    width: calc(33.33333% - 20px);
+  }
+}
+

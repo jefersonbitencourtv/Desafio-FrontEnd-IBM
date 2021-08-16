@@ -1,0 +1,24 @@
+<form class="mat-elevation-z8">
+    <h1>Criando novo dragão</h1>
+    <div class="forms">
+        <mat-form-field class="form" appearance="fill">
+            <mat-label>Nome</mat-label>
+            <input matInput [(ngModel)]="dragon.name" name="dragon.name"  placeholder="Ex. Dracarys">
+        </mat-form-field>
+        <mat-form-field class="form" appearance="fill">
+            <mat-label>Tipo</mat-label>
+            <input matInput [(ngModel)]="dragon.type" name="dragon.type"  placeholder="Ex. Fogo">
+        </mat-form-field>
+        <mat-form-field class="form" appearance="fill">
+            <mat-label>String</mat-label>
+            <input matInput [(ngModel)]="dragon.histories" name="dragon.histories"  placeholder="Ex. Devastou uma cidade">
+        </mat-form-field>
+    
+
+    <div class="buttons">
+        <button (click)="create()" mat-stroked-button color="primary">Criar</button>
+        <button (click)="cancel()" mat-stroked-button color="warn">Cancelar</button>
+    </div>
+
+</div>
+</form>
